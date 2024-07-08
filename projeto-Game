@@ -141,7 +141,7 @@ footer{
             </header>
             <section id="about">
                 <div class="container">
-                    <img class="star front" src="./loja.jfif"alt ="faixada da loja"/>
+                    <img class="star front" src="./loja.png"alt ="faixada da loja"/>
                     <div>
                         <h2>Sobre a loja</h2>
                         <p>
