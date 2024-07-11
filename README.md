@@ -31,17 +31,17 @@ header nav li a{
     margin: 0 auto;
 }
 header.container,
-section.container{
+.section.container{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.brands-list img{
+.brands-list{
     height: 24px;
 }
 .bands-list li{
-    display: inline;
-    margin-right: 8px;
+    display: inline
+    margin right 8px;
 }
 section.container{
     align-items: flex-start;
@@ -71,7 +71,7 @@ section h3,
     font-family: "Boogaloo", sans-serif;
 }
 #ul{
-    height: 8px;
+    height: 24px;
 }
 .container.contact{
     display: block;
@@ -93,7 +93,7 @@ form.button{
     height: 180px;
 }
 .social-links{
-    display: inline;
+    display: flex;
     margin-right: 8px;
 }
 .social-links li a{
@@ -153,8 +153,8 @@ footer{
                     </div>
                     <ul class="brands list">
                         <li><img src="./images/nintendo.png" alt="logo nitendo"></li>
-                        <li><img src="./images/xbox.png"alt="logo xbox" ></li>
-                        <li><img src="./images/playstation.png "alt="logo playstation"></li>
+                        <li><img src="./images/xbox.png" alt="logo xbox"></li>
+                        <li><img src="./images/playstation.png" alt="logo playstation"></li>
                 <div class="container">
                     <h2>contato</h2>
                     <div class="contact metods">
@@ -199,5 +199,5 @@ footer{
                     &copy; Game-shop todos os direitos reservados /2024
                 </div>
             </footer>
-        </body>
+</body>
     </hltml>
