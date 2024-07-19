@@ -7,6 +7,123 @@
         <link rel="stylessheet" href="./main.css">
         <title>Games shop a sua loja de games</title>
     </head>
+    <style>
+        
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+h1{
+padding: 16px 0;
+background-color: blue;
+color: white;
+}
+header  li{
+display: inline;
+margin-left: 16px;
+font-size: 24px;
+}
+header nav li a{
+color:rgb(31, 30, 30) ;
+text-decoration: none;
+}
+.container{
+max-width: 1280;
+width: 100%;
+margin: 0 auto;
+}
+header.container,
+.section.container{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.brands-list img{
+height: 24px;
+}
+.bands-list li{
+display: inline
+margin right 8px;
+}
+section.container{
+align-items: flex-start;
+}
+section{
+padding: 24 0;
+}
+section h2{
+margin-bottom: 8px;
+}
+section{
+color: blue;
+}
+.star-front{
+margin-right: 32px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.boogaloo-regular {
+font-family: "Boogaloo", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+header h1,
+section h2,
+section h3,
+.form.butoon,body,input,textarea{
+font-family: "Boogaloo", sans-serif;
+}
+#ul{
+height: 24px;
+}
+.container.contact{
+display: block;
+}
+.contact-metods{
+display: flex;
+justify-content: space-between;
+}
+.form.input,
+form.textarea,
+form.button{
+display: block;
+width: 320px;
+margin-bottom: 8px;
+padding: 8px;
+}
+.form.textarea{
+resize: none;
+height: 180px;
+}
+.social-links{
+display: flex;
+margin-right: 8px;
+}
+.social-links li a{
+text-decoration: none;
+
+}
+section h3{
+margin-bottom: 160x;
+}
+.form.butoon{
+background-color: blue;
+color:white;
+border:none;
+cursor: pointer;
+}
+.form.butoon.hover{
+outline-color: rgb(54, 54, 150);
+}
+input:focus.textarea:focus{
+outline-color: blue;
+}
+footer{
+background-color: blue;
+color: white;
+padding: 16px;
+}
+    </style>
         <body>
             <header>
                 <div class="container">
